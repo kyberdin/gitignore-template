@@ -1,51 +1,49 @@
 # Originally provided by Octocat on GitHub
 # https://gist.github.com/octocat/9257657
 
-# Files #
-#########
-*.pyc
-.ycm_extra_conf.py
-tags
+# YOUR SPECIFIC FILES #
+#######################
 
-# Directories #
-###############
+
+# System Files
+##############
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Directories
+#############
+*.egg*
+*venv*
 __pycache__
+_build/
+_release/
 bin/
 build/
 dist/
-*.egg*
 
-# Office Files #
-################
-*.odt
-*.odf
-*.doc
-*.docx
-*.xls
-*.xlsx
-*.pptx
-
-# Scons #
-#########
-.sconsign.dblite
-
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Compiled source
+#################
 *.a
 *.bin
+*.class
+*.com
+*.dll
 *.elf
+*.exe
 *.hex
+*.o
+*.pyc
+*.so
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
+# Packages
+##########
+# (it's better to unpack these files and commit the raw source, as git has its
+# own built in compression methods)
 *.7z
 *.dmg
 *.gz
@@ -55,19 +53,25 @@ dist/
 *.tar
 *.zip
 
-# Logs and databases #
-######################
+# Logs and databases
+####################
 *.log
 *.sql
 *.sqlite
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Office Files
+##############
+*.doc
+*.docx
+*.odf
+*.odt
+*.pptx
+*.xls
+*.xlsx
+
+# Misc Files
+############
+.sconsign.dblite
+.ycm_extra_conf.py
+tags
 
