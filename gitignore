@@ -19,6 +19,7 @@ Thumbs.db
 #############
 *.egg*
 *venv*
+.vscode/
 __pycache__
 _build/
 _release/
@@ -74,4 +75,6 @@ dist/
 .sconsign.dblite
 .ycm_extra_conf.py
 tags
+*.sublime-workspace
+*.sublime-project
 
