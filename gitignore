@@ -19,6 +19,8 @@ Thumbs.db
 #############
 *.egg*
 *venv*
+.pytest_cache
+.tox/
 .vscode/
 __pycache__
 _build/
