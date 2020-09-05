@@ -23,11 +23,13 @@ Thumbs.db
 .tox/
 .vscode/
 __pycache__
-_build/
-_release/
+_build*/
+_release*/
 bin/
-build/
+lib/
+build*/
 dist/
+release*/
 
 # Compiled source
 #################
