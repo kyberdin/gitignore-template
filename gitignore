@@ -5,31 +5,29 @@
 #######################
 
 
-# System Files
-##############
-._*
-.DS_Store
-.DS_Store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
 # Directories
 #############
+# Assume leading underscore is system, tmp, or otherwise private
+._*/
+
+# Python-related directories
 *.egg*
 *venv*
 .pytest_cache
 .tox/
-.vscode/
 __pycache__
+dist/
+
+# Build or release outputs
 _build*/
 _release*/
 bin/
 lib/
 build*/
-dist/
 release*/
+
+# IDE-specific
+.vscode/
 
 # Compiled source
 #################
@@ -67,6 +65,7 @@ release*/
 
 # Office Files
 ##############
+# These should never be committed, ever.
 *.doc
 *.docx
 *.odf
@@ -75,11 +74,21 @@ release*/
 *.xls
 *.xlsx
 
+# System Files
+##############
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Misc Files
 ############
 .sconsign.dblite
-.ycm_extra_conf.py
 tags
+
+# Ignore IDE files
 *.sublime-workspace
 *.sublime-project
-
