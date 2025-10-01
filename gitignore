@@ -59,7 +59,6 @@ doc*/site
 ##############
 .vscode/
 *.sublime-workspace
-*.sublime-project
 
 # Version control
 #################
