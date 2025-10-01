@@ -1,0 +1,47 @@
+*.log
+
+# Assume leading underscore denotes private, temp, etc.
+._*/
+
+# Python
+*venv*
+*.egg*
+__pycache__
+
+# Artifacts
+_build*/
+_release*/
+build*/
+release*/
+bin/
+*.a
+*.bin
+*.class
+*.com
+*.dll
+*.deb
+*.elf
+*.exe
+*.msi
+*.hex
+*.o
+*.pyc
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.*
+*.zip
+
+# OS junk
+.DS_Store
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
