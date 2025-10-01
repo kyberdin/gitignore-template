@@ -65,7 +65,6 @@ doc*/site
 .git/
 .svn/
 .hg/
-CVS/
 
 # Office Files
 ##############
@@ -80,15 +79,8 @@ CVS/
 
 # System Files
 ##############
-._*
 .DS_Store
 .DS_Store?
-.Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Misc
-######
-.sconsign.dblite
-tags
