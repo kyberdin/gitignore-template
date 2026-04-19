@@ -1,6 +1,7 @@
 *.log
 
 # Assume leading underscore denotes private, temp, etc.
+_*/
 ._*/
 
 # Python

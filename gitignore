@@ -6,6 +6,7 @@
 
 
 # Assume leading underscore is system, tmp, or otherwise private
+_*/
 ._*/
 
 # Python
