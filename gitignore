@@ -1,16 +1,11 @@
+##########################################
 # Originally provided by Octocat on GitHub
 # https://gist.github.com/octocat/9257657
+##########################################
 
-# YOUR SPECIFIC FILES #
-#######################
-
-
-# Assume leading underscore is system, tmp, or otherwise private
-_*/
-._*/
+# Project-specific
 
 # Python
-########
 *.egg*
 *venv*
 .pytest_cache
@@ -18,58 +13,48 @@ _*/
 __pycache__
 dist/
 
-# Build or release artifacts
-############################
-_build*/
-_release*/
-bin/
-lib/
+# Artifacts
 build*/
 release*/
-doc*/site
+dist*/
+lib/
 *.a
 *.bin
 *.class
 *.com
 *.dll
-*.deb
 *.elf
-*.exe
-*.msi
+*.log
 *.hex
 *.o
 *.pyc
 *.so
+
+# Executables
+bin/
+*.exe
+*.deb
+*.jar
+*.msi
+
+# Archives
 *.7z
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.tar.*
 *.zip
 
-# Logs and databases
-####################
-*.log
+# Large files
 *.sql
 *.sqlite
+*.png
+*.jpg
+*.jpeg
 
-# IDE-specific
-##############
-.vscode/
-*.sublime-workspace
-
-# Version control
-#################
-.git/
-.svn/
-.hg/
-
-# Office Files
-##############
-# These should never be committed, ever.
+# Office files
 *.doc
 *.docx
 *.odf
@@ -78,8 +63,9 @@ doc*/site
 *.xls
 *.xlsx
 
-# System Files
-##############
+# System files
+_*/
+._*/
 .DS_Store
 .DS_Store?
 .Trashes

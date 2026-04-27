@@ -1,44 +1,43 @@
-# Assume leading underscore denotes private, temp, etc.
-_*/
-._*/
-
-# Python
-*venv*
-*.egg*
-__pycache__
-.pytest_cache
+# Project-specific
 
 # Artifacts
 build*/
 release*/
-bin/
+dist*/
+lib/
+__pycache__
 *.a
 *.bin
 *.class
 *.com
 *.dll
-*.deb
 *.elf
-*.exe
 *.log
-*.msi
 *.hex
 *.o
 *.pyc
 *.so
+
+# Executables
+bin/
+*.exe
+*.deb
+*.jar
+*.msi
 
 # Archives
 *.7z
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.tar.*
 *.zip
 
-# OS junk
+# System files
+_*/
+._*/
 .DS_Store
 .DS_Store?
 .Trashes
